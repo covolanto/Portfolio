@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Solomon — Databases, Frontend &amp; Formal Languages</title>
+<meta name="description" content="Solomon — CS student building databases, frontend interfaces, and formal-language tools. Portfolio of projects spanning SQL, JavaScript, and automata theory.">
+<meta property="og:title" content="Solomon — Databases, Frontend & Formal Languages">
+<meta property="og:description" content="CS student portfolio — databases, frontend, and formal language theory projects.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230B0E14'/%3E%3Ctext x='50' y='68' font-family='monospace' font-size='55' font-weight='700' fill='%235EEAD4' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.16.0/devicon.min.css">
+</head>
+<body>
+
+<nav>
+  <div class="logo">Solomon<span style="color:var(--muted)"> </span>Muthee</div>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+  <ul id="navLinks">
+    <li><a href="#home">home</a></li>
+    <li><a href="#about">about</a></li>
+    <li><a href="#skills">skills</a></li>
+    <li><a href="#projects">projects</a></li>
+    <li><a href="#contact">contact</a></li>
+  </ul>
+</nav>
+
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+  </div>
+  <div class="hero-content">
+    <div class="eyebrow mono">Hello, I'm</div>
+    <h1 class="display">Solomon <span class="match">Muthee</span></h1>
+    <p class="role mono">Computer Science Student</p>
+    <p class="tagline">CS student and budding developer with hands-on experience in Java, C, Python, PHP, and the full web trilogy (HTML, CSS, JS). I love solving algorithmic challenges, building real-world apps, and learning something new with every project.</p>
+    <div class="hero-ctas">
+      <a href="#projects" class="btn primary">View My Work →</a>
+      <a href="#contact" class="btn secondary">Contact Me</a>
+    </div>
+    <div class="social-row">
+      <a href="https://github.com/covolanto" target="_blank" rel="noopener" aria-label="GitHub" class="social-icon">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.1 3.29 9.4 7.86 10.93.58.1.79-.25.79-.56 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.36-3.88-1.36-.52-1.34-1.28-1.69-1.28-1.69-1.04-.72.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.24 2.76.12 3.05.74.81 1.18 1.83 1.18 3.09 0 4.41-2.7 5.39-5.26 5.67.41.36.78 1.06.78 2.14 0 1.54-.01 2.79-.01 3.17 0 .31.21.67.8.56A10.52 10.52 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5Z"/></svg>
+      </a>
+      <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-icon">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.15 1.45-2.15 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+      </a>
+      <a href="mailto:Solomongachungi@gmail.com" aria-label="Email" class="social-icon">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 6 10 7 10-7"/></svg>
+      </a>
+    </div>
+  </div>
+
+  <div class="hero-photo-wrap">
+    <div class="hero-glow"></div>
+    <div class="profile-photo-wrap">
+      <img src="coding.gif" alt="Solomon Muthee" class="profile-photo">
+    </div>
+    <div class="code-badge mono">&lt;/&gt;</div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="about-skills-grid">
+    <div class="reveal">
+      <div class="section-head">
+        <span class="tag mono">§1</span>
+        <h2>About Me</h2>
+      </div>
+      <p>I'm a third-year computer science student who works across <strong>databases</strong> and <strong>frontend development</strong> — building interfaces on top of data that actually works, not just looks good.</p>
+      <p>Alongside that, I study <strong>formal language theory</strong>: how grammars, automata, and parsers underpin the tools every developer relies on. Most of what I build starts as a way to understand something more deeply — turning a lecture on automata into a working game, or a group assignment's grammar into something that actually generalizes.</p>
+      <ul class="info-list">
+        <li><span class="info-label">Email:</span><span>Solomongachungi@gmail.com</span></li>
+        <li><span class="info-label">Focus:</span><span>Databases &amp; Frontend</span></li>
+        <li><span class="info-label">Currently:</span><span>Compiler Design</span></li>
+      </ul>
+    </div>
+
+    <div class="reveal" id="skills">
+      <div class="section-head">
+        <span class="tag mono">§2</span>
+        <h2>Skills</h2>
+      </div>
+      <div class="skill-icon-row">
+        <div class="skill-icon-box"><i class="devicon-html5-plain colored"></i></div>
+        <div class="skill-icon-info">
+          <div class="skill-top"><span>HTML</span></div>
+          <div class="skill-track"><div class="skill-fill" data-width="85"></div></div>
+        </div>
+      </div>
+      <div class="skill-icon-row">
+        <div class="skill-icon-box"><i class="devicon-css3-plain colored"></i></div>
+        <div class="skill-icon-info">
+          <div class="skill-top"><span>CSS</span></div>
+          <div class="skill-track"><div class="skill-fill" data-width="80"></div></div>
+        </div>
+      </div>
+      <div class="skill-icon-row">
+        <div class="skill-icon-box"><i class="devicon-javascript-plain colored"></i></div>
+        <div class="skill-icon-info">
+          <div class="skill-top"><span>JavaScript</span></div>
+          <div class="skill-track"><div class="skill-fill" data-width="75"></div></div>
+        </div>
+      </div>
+      <div class="skill-icon-row">
+        <div class="skill-icon-box"><i class="devicon-php-plain colored"></i></div>
+        <div class="skill-icon-info">
+          <div class="skill-top"><span>PHP</span></div>
+          <div class="skill-track"><div class="skill-fill" data-width="70"></div></div>
+        </div>
+      </div>
+      <div class="skill-icon-row">
+        <div class="skill-icon-box"><i class="devicon-java-plain colored"></i></div>
+        <div class="skill-icon-info">
+          <div class="skill-top"><span>Java</span></div>
+          <div class="skill-track"><div class="skill-fill" data-width="70"></div></div>
+        </div>
+      </div>
+      <div class="skill-icon-row">
+        <div class="skill-icon-box"><i class="devicon-mysql-plain colored"></i></div>
+        <div class="skill-icon-info">
+          <div class="skill-top"><span>SQL</span></div>
+          <div class="skill-track"><div class="skill-fill" data-width="80"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="section-head reveal">
+    <span class="tag mono">§3</span>
+    <h2>Projects</h2>
+  </div>
+
+  <div class="filter-tabs mono">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="fullstack">Full-Stack</button>
+    <button class="filter-btn" data-filter="frontend">Frontend</button>
+    <button class="filter-btn" data-filter="database">Database</button>
+    <button class="filter-btn" data-filter="backend">Backend</button>
+  </div>
+
+  <div class="projects-grid" id="projectsGrid">
+
+    <div class="project-card reveal" data-category="frontend">
+      <div class="card-visual">
+        <svg viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="30" r="12" fill="none" stroke="#4ADE80" stroke-width="2"/>
+          <circle cx="55" cy="16" r="10" fill="none" stroke="#223028" stroke-width="2"/>
+          <circle cx="55" cy="44" r="10" fill="none" stroke="#223028" stroke-width="2"/>
+          <circle cx="88" cy="30" r="12" fill="none" stroke="#22C55E" stroke-width="2"/>
+          <circle cx="88" cy="30" r="8" fill="none" stroke="#22C55E" stroke-width="1.5"/>
+          <line x1="30" y1="26" x2="47" y2="18" stroke="#8FA396" stroke-width="1.5"/>
+          <line x1="30" y1="34" x2="47" y2="42" stroke="#8FA396" stroke-width="1.5"/>
+          <line x1="63" y1="18" x2="78" y2="27" stroke="#8FA396" stroke-width="1.5"/>
+          <line x1="63" y1="42" x2="78" y2="33" stroke="#8FA396" stroke-width="1.5"/>
+        </svg>
+      </div>
+      <span class="category-badge fe">frontend</span>
+      <span class="production">RE → NFA → DFA | interactive</span>
+      <h3>Regex Pipeline Game</h3>
+      <p>An interactive tool that teaches Thompson's Construction and subset construction visually — turning a regular expression into an NFA, then a DFA, step by step.</p>
+      <ul class="feature-list">
+        <li>Step-by-step Thompson's Construction visualizer</li>
+        <li>Live NFA → DFA subset construction</li>
+        <li>Built as an interactive educational tool</li>
+      </ul>
+      <div class="tags"><span>HTML</span><span>JavaScript</span><span>React</span></div>
+      <a href="https://github.com/covolanto/regex" target="_blank" rel="noopener" class="card-link">View on GitHub →</a>
+    </div>
+
+    <div class="project-card reveal" data-category="fullstack">
+      <div class="card-visual">
+        <svg viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg">
+          <rect x="8" y="10" width="84" height="14" rx="2" fill="#223028"/>
+          <rect x="12" y="14" width="34" height="6" rx="1" fill="#22C55E"/>
+          <rect x="8" y="28" width="40" height="24" rx="2" fill="#16201C"/>
+          <rect x="52" y="28" width="40" height="10" rx="2" fill="#16201C"/>
+          <rect x="52" y="42" width="40" height="10" rx="2" fill="#16201C"/>
+          <rect x="13" y="33" width="30" height="4" rx="1" fill="#4ADE80"/>
+          <rect x="13" y="41" width="20" height="4" rx="1" fill="#8FA396"/>
+          <rect x="57" y="32" width="14" height="3" rx="1" fill="#4ADE80"/>
+          <rect x="57" y="46" width="18" height="3" rx="1" fill="#22C55E"/>
+        </svg>
+      </div>
+      <span class="category-badge fe">full-stack</span>
+      <span class="production">PHP → MySQL | water_billing</span>
+      <h3>Water Billing Management System</h3>
+      <p>A complete water utility billing platform covering customer registration, meter readings, bill generation, and payment tracking — built with role-based dashboards for admins, employees, and customers.</p>
+      <ul class="feature-list">
+        <li>Admin, employee, and customer dashboards with role-based access</li>
+        <li>Automated bill generation from metered readings</li>
+        <li>Payment tracking, receipts, and reporting exports</li>
+      </ul>
+      <div class="tags"><span>PHP</span><span>MySQL</span><span>HTML/CSS/JS</span><span>Bootstrap</span></div>
+      <a href="https://github.com/covolanto/MAJIMAJI-" target="_blank" rel="noopener" class="card-link">View on GitHub →</a>
+    </div>
+
+    <div class="project-card reveal" data-category="database">
+      <div class="card-visual">
+        <svg viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg">
+          <rect x="10" y="10" width="80" height="14" rx="2" fill="#223028"/>
+          <rect x="14" y="14" width="30" height="6" rx="1" fill="#22C55E"/>
+          <rect x="10" y="28" width="80" height="14" rx="2" fill="#223028"/>
+          <rect x="14" y="32" width="46" height="6" rx="1" fill="#4ADE80"/>
+          <rect x="10" y="46" width="80" height="10" rx="2" fill="#16201C"/>
+          <rect x="14" y="49" width="20" height="4" rx="1" fill="#8FA396"/>
+        </svg>
+      </div>
+      <span class="category-badge db">database</span>
+      <span class="production">SQL → GRAMMAR | health_report</span>
+      <h3>CFG-Based Health Report Parser</h3>
+      <p>A context-free grammar built in Python for parsing county health reports. Redesigned the original closed-vocabulary grammar into lexical token classes so it generalizes across data sets instead of relying on hard-coded terminals.</p>
+      <ul class="feature-list">
+        <li>Lexical token classes instead of hard-coded terminals</li>
+        <li>Generalizes across different report formats</li>
+        <li>Built entirely in Python</li>
+      </ul>
+      <div class="tags"><span>Python</span><span>CFG</span><span>Parsing</span></div>
+      <a href="https://github.com/covolanto/HEALTH" target="_blank" rel="noopener" class="card-link">View on GitHub →</a>
+    </div>
+
+    <div class="project-card reveal" data-category="backend">
+      <div class="card-visual">
+        <svg viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg">
+          <rect x="14" y="10" width="72" height="40" rx="3" fill="#16201C" stroke="#223028"/>
+          <text x="20" y="24" font-family="monospace" font-size="9" fill="#4ADE80">$</text>
+          <rect x="30" y="19" width="34" height="4" rx="1" fill="#8FA396"/>
+          <rect x="20" y="30" width="50" height="3" rx="1" fill="#8FA396"/>
+          <rect x="20" y="37" width="36" height="3" rx="1" fill="#22C55E"/>
+          <rect x="20" y="44" width="42" height="3" rx="1" fill="#8FA396"/>
+        </svg>
+      </div>
+      <span class="category-badge th">backend</span>
+      <span class="production">JAVA → SCANNER | scoresheet</span>
+      <h3>Student Report Card Generator</h3>
+      <p>A group-built Java program that generates report cards by collecting school, teacher, and student data through Scanner input, calculating totals and averages across subjects.</p>
+      <ul class="feature-list">
+        <li>Collects and validates mixed text/numeric input via Scanner</li>
+        <li>Solved input-buffer bugs from mixing nextLine() and numeric reads</li>
+        <li>Calculates per-student totals and averages</li>
+      </ul>
+      <div class="tags"><span>Java</span><span>OOP</span><span>Group Project</span></div>
+      <a href="https://github.com/covolanto/STUDENT-SCORESHEET" target="_blank" rel="noopener" class="card-link">View on GitHub →</a>
+    </div>
+
+    <div class="project-card reveal" data-category="backend">
+      <div class="card-visual">
+        <svg viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg">
+          <rect x="10" y="12" width="36" height="36" rx="3" fill="#16201C" stroke="#223028"/>
+          <rect x="16" y="18" width="24" height="4" rx="1" fill="#4ADE80"/>
+          <rect x="16" y="26" width="18" height="3" rx="1" fill="#8FA396"/>
+          <rect x="16" y="32" width="24" height="3" rx="1" fill="#8FA396"/>
+          <rect x="16" y="38" width="14" height="3" rx="1" fill="#22C55E"/>
+          <rect x="54" y="12" width="36" height="36" rx="3" fill="#16201C" stroke="#223028"/>
+          <rect x="60" y="18" width="24" height="4" rx="1" fill="#22C55E"/>
+          <rect x="60" y="26" width="20" height="3" rx="1" fill="#8FA396"/>
+          <rect x="60" y="32" width="24" height="3" rx="1" fill="#8FA396"/>
+          <rect x="60" y="38" width="16" height="3" rx="1" fill="#4ADE80"/>
+        </svg>
+      </div>
+      <span class="category-badge th">backend</span>
+      <span class="production">JAVA → OOP | invoice_marks</span>
+      <h3>Invoice &amp; Grade Calculator Programs</h3>
+      <p>A set of Java OOP exercises: an invoice generator that calculates totals, discounts, and formatting, plus a program that captures marks for multiple students across several units and computes averages.</p>
+      <ul class="feature-list">
+        <li>Invoice generation with totals and discount logic</li>
+        <li>Multi-student, multi-unit mark capture and averaging</li>
+        <li>Practiced core OOP structuring in Java</li>
+      </ul>
+      <div class="tags"><span>Java</span><span>OOP</span></div>
+      <a href="https://github.com/covolanto/OOP" target="_blank" rel="noopener" class="card-link">View on GitHub →</a>
+    </div>
+
+    <div class="project-card reveal" data-category="backend">
+      <div class="card-visual">
+        <svg viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="24" cy="30" r="14" fill="none" stroke="#4ADE80" stroke-width="2"/>
+          <text x="24" y="34" font-family="monospace" font-size="8" fill="#4ADE80" text-anchor="middle">sense</text>
+          <circle cx="76" cy="30" r="14" fill="none" stroke="#22C55E" stroke-width="2"/>
+          <text x="76" y="34" font-family="monospace" font-size="9" fill="#22C55E" text-anchor="middle">act</text>
+          <path d="M38 24 Q50 10 62 24" fill="none" stroke="#8FA396" stroke-width="1.5"/>
+          <path d="M62 36 Q50 50 38 36" fill="none" stroke="#8FA396" stroke-width="1.5"/>
+        </svg>
+      </div>
+      <span class="category-badge th">backend</span>
+      <span class="production">C → LOOP | sense_act</span>
+      <h3>AI Sense-Act Engine</h3>
+      <p>A C-based system that reads real-time input from configured sources, analyzes it for patterns or triggers, and executes an appropriate action — following a continuous sense–decide–act loop.</p>
+      <ul class="feature-list">
+        <li>Modular sensing, decision, and actuation components</li>
+        <li>Logging for debugging and behavior tracking</li>
+        <li>Extensible for new sensors or decision rules</li>
+      </ul>
+      <div class="tags"><span>C</span><span>Systems Logic</span></div>
+      <a href="https://github.com/covolanto/Ai" target="_blank" rel="noopener" class="card-link">View on GitHub →</a>
+    </div>
+
+    <div class="project-card reveal" data-category="backend">
+      <div class="card-visual">
+        <svg viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg">
+          <rect x="10" y="10" width="80" height="12" rx="2" fill="#16201C"/>
+          <text x="16" y="19" font-family="monospace" font-size="7" fill="#4ADE80">if / else</text>
+          <rect x="10" y="26" width="80" height="12" rx="2" fill="#16201C"/>
+          <text x="16" y="35" font-family="monospace" font-size="7" fill="#22C55E">switch / case</text>
+          <rect x="10" y="42" width="80" height="12" rx="2" fill="#16201C"/>
+          <text x="16" y="51" font-family="monospace" font-size="7" fill="#8FA396">if-else if-else</text>
+        </svg>
+      </div>
+      <span class="category-badge th">backend</span>
+      <span class="production">JAVA → FLOW | control</span>
+      <h3>Control Statements Toolkit</h3>
+      <p>A collection of Java examples covering selection and decision statements — if, if-else, if-else-if-else chains, and switch-case — built to practice program flow control.</p>
+      <ul class="feature-list">
+        <li>Covers if, if-else, and if-else-if-else chains</li>
+        <li>Switch-case examples for multi-branch logic</li>
+        <li>Organized as focused, standalone examples</li>
+      </ul>
+      <div class="tags"><span>Java</span><span>Fundamentals</span></div>
+      <a href="https://github.com/covolanto/control-statements" target="_blank" rel="noopener" class="card-link">View on GitHub →</a>
+    </div>
+
+  </div>
+
+  <button class="show-more-btn mono" id="showMoreBtn">
+    <span id="showMoreLabel">Show More</span>
+    <svg id="showMoreIcon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+  </button>
+</section>
+
+<section id="contact">
+  <div class="section-head reveal">
+    <span class="tag mono">§4</span>
+    <h2>Contact</h2>
+  </div>
+  <div class="terminal reveal">
+    <div class="line"><span class="prompt">$</span> whoami</div>
+    <div class="line"><span class="val">Solomon Muthee</span></div>
+    <div class="line"><span class="prompt">$</span> contact --email</div>
+    <div class="line"><span class="val">Solomongachungi@gmail.com</span></div>
+    <div class="line"><span class="prompt">$</span> contact --github</div>
+    <div class="line"><span class="val">github.com/covolanto</span></div>
+    <div class="line"><span class="prompt">$</span> contact --linkedin</div>
+    <div class="line"><span class="val">linkedin.com/in/your-profile</span></div>
+    <div class="line"><span class="prompt">$</span> <span class="cursor"></span></div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <div class="logo">Solomon<span style="color:var(--muted)">|</span>Muthee</div>
+      <p class="footer-blurb">A passionate CS student who loves coding, problem solving, and building solutions that make a difference.</p>
+    </div>
+    <div>
+      <h4 class="mono">Quick Links</h4>
+      <ul class="footer-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="mono">Let's Connect</h4>
+      <ul class="footer-links">
+        <li><a href="https://github.com/covolanto" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="mailto:Solomongachungi@gmail.com">Email</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="mono">Newsletter</h4>
+      <p class="footer-blurb">Stay updated with my latest projects and articles.</p>
+      <form class="newsletter-form" id="newsletterForm">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+  <div class="footer-bottom mono">© 2026 Solomon Muthee. All rights reserved.</div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
